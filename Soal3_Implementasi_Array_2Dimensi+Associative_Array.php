@@ -16,6 +16,13 @@
         ]
     ?>
 
-
+    <?php foreach($nilai as $woi) : ?>
+        <ul>
+            <li>Nama : <?= $woi["nama"]; ?></li>
+            <li>Nilai Tugas : <?= $woi["tugas"]; ?></li>
+            <li>Nilai UTS : <?=$woi["uts"]; ?></li>
+            <li>Nilai UAS : <?=$woi["uas"]; ?></li>
+        </ul>
+    <?php endforeach; ?>
 
 </body>
