@@ -26,6 +26,7 @@
 
         <?php for($i = 0; $i < count($mahasiswa); $i++) : ?>
         <tr>
+            <td><?php echo $i + 1; ?></td>
             <td><?php echo $mahasiswa[$i][0]; ?></td>
             <td><?php echo $mahasiswa[$i][1]; ?></td>
             <td><?php echo $mahasiswa[$i][2]; ?></td>
